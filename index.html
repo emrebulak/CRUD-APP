@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>CRUD APP</title>
 </head>
@@ -19,13 +21,21 @@
         </form>
 
         <div class="container__list">
-            <ul class="container__list--items">
-                <li class="container__list--item">Deneme eklemesi</li>
+            <ul id="listItems" class="container__list--items">
+
+                <!-- <li class="container__list--item">
+                    <p class="container__list--item--title">Deneme Metni</p>
+                    <div class="container__list--item--buttons">
+                        <button  class="btn container__list--item--button--update"><i class="fa-solid fa-pen"></i></button>    
+                        <button class="btn container__list--item--button--delete"><i class="fa-solid fa-trash"></i></button>    
+                    </div>
+                </li> -->
+
             </ul>
         </div>
     </section>
 
-    <script type="module" src="./assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
